@@ -10,6 +10,9 @@
     bottom: 40px;
 
     background-color: $primary;
+	background-image: url('img/core-img/chevron-up.png');
+	background-position: center;
+	background-repeat: no-repeat;
     color: $white;
     text-align: center;
     @include transition-duration(500ms);

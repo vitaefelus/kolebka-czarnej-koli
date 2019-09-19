@@ -475,6 +475,9 @@ input:focus {
   height: 40px;
   bottom: 40px;
   background-color: #ffcc00;
+  background-image: url("img/core-img/chevron-up.png");
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   text-align: center;
   -webkit-transition-duration: 500ms;
@@ -608,6 +611,9 @@ input:focus {
     margin-right: 15px;
   }
 }
+.classy-nav-container .classy-navbar .nav-brand:hover {
+  color: #ffcc00;
+}
 .classy-nav-container .classy-navbar .classynav ul li a {
   font-size: 16px;
   text-transform: capitalize;
@@ -684,6 +690,14 @@ input:focus {
 
 .breakpoint-off .classynav ul li .megamenu {
   width: 100%;
+}
+
+.classy-navbar .classy-menu {
+  background-color: #2b0A15 !important;
+}
+
+.classynav > ul > li > a {
+  background-color: transparent !important;
 }
 
 /* :: 8.0 Hero CSS */

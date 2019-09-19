@@ -70,6 +70,10 @@
                 //max-width: 90px;
                 margin-right: 15px;
             }
+
+			&:hover {
+				color: $primary;
+			}
         }
 
         .classynav ul li {
@@ -161,4 +165,14 @@
 
 .breakpoint-off .classynav ul li .megamenu {
     width: 100%;
+}
+
+.classy-navbar {
+	.classy-menu {
+		background-color: $bg-gray !important;
+	}
+}
+
+.classynav>ul>li>a {
+	background-color: transparent !important;
 }
